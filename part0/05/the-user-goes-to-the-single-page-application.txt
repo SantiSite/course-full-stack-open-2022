@@ -1,0 +1,6 @@
+title The user goes to the single page application
+
+actor user
+user->browser: The user accesses his browser
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML-code
